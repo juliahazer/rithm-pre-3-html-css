@@ -1,0 +1,36 @@
+/*body {
+	background-color: cyan;
+}*/
+ul {
+	text-align: center;
+	margin: auto;
+	line-height: 30px;
+}
+
+ul li {
+	list-style: none;
+}
+
+li::first-letter {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+body {
+	background-color: coral;
+}
+
+h1 {
+	padding: 2px;
+	margin: 2px;
+	font-style: italic;
+	text-align: center;
+	border-bottom: 3px dashed black;
+}
+
+#wrap {
+	background-color: bisque;
+	width: 60%;
+	margin: auto;
+	border: 5px dotted black;
+}

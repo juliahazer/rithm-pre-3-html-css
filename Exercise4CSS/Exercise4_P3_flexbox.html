@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Part III Flexbox</title>
+
+	<style text="type/css">
+		.container {
+			display: flex;
+			flex-flow: row nowrap;
+			margin: auto;
+		}
+
+		.box {
+			border: 1px solid black;
+			flex-grow: 1;
+			margin: 10px;
+		}
+
+		.col {
+			height: 300px;
+		}
+
+		.purple {
+			height: 100px;
+			background-color: MediumPurple;
+		}
+
+		.red {
+			background-color: PaleVioletRed;
+		}
+
+		.green {
+			background-color: MediumAquaMarine;
+		}
+
+		.orange {
+			background-color: GoldenRod;
+		}
+
+		.blue {
+			background-color: MediumTurquoise;
+		}
+		
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="box purple"></div>
+</div>
+
+<div class="container">
+	<div class="box red col"></div>
+	<div class="box green col"></div>
+	<div class="box orange col"></div>
+</div>
+	
+</body>
+</html>

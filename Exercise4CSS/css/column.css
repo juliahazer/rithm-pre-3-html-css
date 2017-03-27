@@ -1,0 +1,39 @@
+body {
+	background-color: SlateBlue;
+}
+
+#wrap {
+	/*overflow: hidden;*/
+	width: 80%;
+	margin: 0 auto;
+}
+
+#content {
+	box-sizing: border-box;
+	/*border: 1px solid black;*/
+	background-color: SteelBlue;
+	text-align: center;
+	height: 500px;
+	float: left;
+	width: 70%;
+	padding: 10px;
+}
+
+#content ul {
+	list-style: none;
+}
+
+#content li {
+	font-style: italic;
+}
+
+#nav {
+	box-sizing: border-box;
+	background-color: SkyBlue;
+	float: left;
+	height: 500px;
+	width: 30%;
+	padding: 10px;
+	/*padding-bottom: 1000px;
+	margin-bottom: -1000px;*/
+}
